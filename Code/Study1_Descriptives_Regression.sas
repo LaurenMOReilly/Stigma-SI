@@ -590,3 +590,5 @@ run;
 %proc_genmod (data=suistg_2, classvars=sex black hispanic asian other sex_minority age19 age20 age21older past_MHT, outcome=DSISS_t3, predictor=SOSSi_t3, allvars=sex black hispanic asian other sex_minority age19 age20 age21older past_MHT DSISS_t1d, dist=negbin);
 %proc_genmod (data=suistg_2, classvars=sex black hispanic asian other sex_minority age19 age20 age21older past_MHT, outcome=DSISS_t3, predictor=SOSSg_t3, allvars=sex black hispanic asian other sex_minority age19 age20 age21older past_MHT DSISS_t1d, dist=negbin);
 %proc_genmod (data=suistg_2, classvars=sex black hispanic asian other sex_minority age19 age20 age21older past_MHT, outcome=DSISS_t3, predictor=SSOSH_t3_, allvars=sex black hispanic asian other sex_minority age19 age20 age21older past_MHT DSISS_t1d, dist=negbin);
+
+/*End*/
